@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
+// Convert to functional component
+const NavBar  = ({ icon, title }) => {
 
-export class NavBar extends Component {
+    return (
+        <nav className="navbar bg-primary">
+        <h1>
+            <i className= {icon} /> {title}
+        </h1>  
+        </nav>
+    )
+};
 
-    static defaultProps = {
-        title: 'Navigation Bar',
-        icon: 'fab fa-github'
-    }
+NavBar.defaultProps = {
+    title: 'Navigation Bar',
+    icon: 'fab fa-github'
+};
 
-    static propTypes = {
-        title: PropTypes.string.isRequired,
-        icon: PropTypes.string.isRequired
-    }
-
-    render() {
-        return (
-          <nav className="navbar bg-primary">
-            <h1>
-              <i className= {this.props.icon} /> {this.props.title}
-            </h1>  
-          </nav>
-        )
-    }
-}
+NavBar.propTypes = {
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired
+};
 
 export default NavBar
