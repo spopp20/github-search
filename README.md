@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Udemy Course - Modern React Front to Back
+
+https://www.udemy.com/course/modern-react-front-to-back
+
 ## Available Scripts
 
 In the project directory, you can run:
