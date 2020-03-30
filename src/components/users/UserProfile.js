@@ -104,7 +104,7 @@ const UserProfile = ({ match }) => {
         </div>
         <Repos repos={repos} />
         </Fragment>
-    )
+    );
 };
 
 export default UserProfile

@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 
-
 const About = () => {
     return (
         <Fragment>
@@ -9,6 +8,6 @@ const About = () => {
             <p>Version 0.1.0</p>
         </Fragment>
     );
-}
+};
 
 export default About;

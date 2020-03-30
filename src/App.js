@@ -12,7 +12,6 @@ import AlertState from './context/alert/AlertState';
 import './App.css';
 
 const App = () => {
-
     return (
       <GithubState>
         <AlertState>
@@ -33,6 +32,6 @@ const App = () => {
       </AlertState>
       </GithubState>
     );
-}
+};
 
 export default App;
